@@ -1,9 +1,8 @@
-
 #include "binary_trees.h"
 
 /**
- * binary_tree_size - Measures the size of a binary tree.
- * @tree: A pointer to the root node of the tree to measure the size of.
+ * binary_tree_size - Calculates the size of a binary tree.
+ * @tree: A pointer to the root node of the tree for size measurement.
  *
  * Return: The size of the tree.
  */
