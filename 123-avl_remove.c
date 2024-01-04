@@ -2,9 +2,9 @@
 #include "binary_trees.h"
 
 /**
- * bal - Measures balance factor of a AVL
+ * bal - calculates the balance factor of a AVL tree
  * @tree: tree to go through
- * Return: balanced factor
+ * Return: balanced factor of the tree
  */
 void bal(avl_t **tree)
 {
