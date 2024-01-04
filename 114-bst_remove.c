@@ -6,8 +6,8 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value);
 bst_t *bst_remove(bst_t *root, int value);
 
 /**
- * inorder_successor - Returns the minimum value of a binary search tree.
- * @root: A pointer to the root node of the BST to search.
+ * inorder_successor - Finds and returns the minimum value of a binary search tree.
+ * @root: A pointer to the root node of the BST to be searched.
  *
  * Return: The minimum value in @tree.
  */
@@ -19,9 +19,9 @@ bst_t *inorder_successor(bst_t *root)
 }
 
 /**
- * bst_delete - Deletes a node from a binary search tree.
+ * bst_delete - Removes a node from a binary search tree.
  * @root: A pointer to the root node of the BST.
- * @node: A pointer to the node to delete from the BST.
+ * @node: A pointer to the node to be deleted from the BST.
  *
  * Return: A pointer to the new root node after deletion.
  */
@@ -63,12 +63,12 @@ bst_t *bst_delete(bst_t *root, bst_t *node)
 }
 
 /**
- * bst_remove_recursive - Removes a node from a binary search tree recursively.
- * @root: A pointer to the root node of the BST to remove a node from.
+ * bst_remove_recursive - Recursively removes a node from a binary search tree.
+ * @root: A pointer to the root node of the BST.
  * @node: A pointer to the current node in the BST.
  * @value: The value to remove from the BST.
  *
- * Return: A pointer to the root node after deletion.
+ * Return: A pointer to the root node after the deletion.
  */
 bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
 {
