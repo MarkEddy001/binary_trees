@@ -4,10 +4,10 @@
 #define INIT_NODE {0, NULL, NULL, NULL}
 
 /**
- * swap - swaps two nodes in binary tree
- * @a: first node
- * @b: second node
- * Return: pointer to root
+ * swap - This function swaps two nodes in binary tree
+ * @a: first node to be swapped
+ * @b: second node to be swapped
+ * Return: pointer to root after the swap
  */
 bst_t *swap(bst_t *a, bst_t *b)
 {
@@ -53,11 +53,11 @@ bst_t *swap(bst_t *a, bst_t *b)
 }
 
 /**
- * convert - converts number and base into string
- * @num: input number
+ * convert - converts number and base into a string representation
+ * @num: input number to be converted
  * @base: input base
  * @lowercase: flag if hexa values need to be lowercase
- * Return: result string
+ * Return: result string after converion
  */
 char *convert(unsigned long int num, int base, int lowercase)
 {
@@ -79,7 +79,7 @@ char *convert(unsigned long int num, int base, int lowercase)
 }
 
 /**
- * binary_tree_size - measures the size of a binary tree
+ * binary_tree_size - calculates the size of a binary tree
  * @tree: input binary tree
  * Return: number of descendant child nodes
  */
@@ -92,8 +92,9 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * insert - helper func to insert node to correct location
- * @root: double pointer to root of max heap
+ * insert - helper function to insert node to correct location in 
+            max heap
+ * @root: double pointer to the root of max heap
  * @node: node to insert
  */
 void insert(heap_t **root, heap_t *node)
@@ -134,9 +135,9 @@ void insert(heap_t **root, heap_t *node)
 
 
 /**
- * heap_insert - inserts a value in Max Binary Heap
- * @root: double pointer to root of tree
- * @value: input value
+ * heap_insert - adds a value to a Max Binary Heap
+ * @root: double pointer to the root of the tree
+ * @value: input value to be added
  * Return: pointer to the created node, or NULL on failure
  */
 heap_t *heap_insert(heap_t **root, int value)
