@@ -92,8 +92,8 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * insert - helper function to insert node to correct location in 
-            max heap
+ * insert - helper function to insert node to correct location
+ *          in max heap
  * @root: double pointer to the root of max heap
  * @node: node to insert
  */
