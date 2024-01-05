@@ -4,7 +4,8 @@
  * binary_tree_height - Calculates the height of a binary tree.
  * @tree: A pointer to the root node of the tree to measure the height.
  *
- * Return: If the tree is NULL, your function must return 0, else return height.
+ * Return: If the tree is NULL, your function must return 0,
+ *         else return height.
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
